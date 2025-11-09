@@ -1,0 +1,642 @@
+[   0.438600] Input <Info> input_common/udp/client.cpp:StartCommunication:206: Starting communication with UDP input server on 127.0.0.1:26760
+[   0.469991] Frontend <Info> citra_qt/citra_qt.cpp:GMainWindow:375: Azahar Version: 2123.3 | HEAD-01dc2bb77
+[   0.469998] Frontend <Info> citra_qt/citra_qt.cpp:GMainWindow:390: Host CPU: AMD Ryzen 7 7735HS with Radeon Graphics         | AVX2 | FMA
+[   0.470015] Frontend <Info> citra_qt/citra_qt.cpp:GMainWindow:392: Host OS: Arch Linux
+[   0.470026] Frontend <Info> citra_qt/citra_qt.cpp:GMainWindow:395: Host RAM: 14.87 GiB
+[   0.470027] Frontend <Info> citra_qt/citra_qt.cpp:GMainWindow:396: Host Swap: 17.76 GiB
+[   4.353744] Frontend <Info> citra_qt/citra_qt.cpp:BootGame:1357: Azahar starting...
+[   4.354009] Service.FS <Error> core/file_sys/ncch_container.cpp:LoadHeader:171: 16384
+[   4.354049] Frontend <Info> citra_qt/citra_qt.cpp:BootGame:1380: Loading per application config file for title 000400000018F000
+[   4.355691] Config <Info> common/settings.cpp:LogSettings:85: Azahar Configuration:
+[   4.355694] Config <Info> common/settings.cpp:operator():82: Core_UseCpuJit: true
+[   4.355695] Config <Info> common/settings.cpp:operator():82: Core_CPUClockPercentage: 100
+[   4.355696] Config <Info> common/settings.cpp:operator():82: Controller_UseArticController: false
+[   4.355696] Config <Info> common/settings.cpp:operator():82: Renderer_UseGLES: false
+[   4.355697] Config <Info> common/settings.cpp:operator():82: Renderer_GraphicsAPI: Vulkan
+[   4.355697] Config <Info> common/settings.cpp:operator():82: Renderer_AsyncShaders: true
+[   4.355698] Config <Info> common/settings.cpp:operator():82: Renderer_AsyncPresentation: true
+[   4.355698] Config <Info> common/settings.cpp:operator():82: Renderer_SpirvShaderGen: true
+[   4.355698] Config <Info> common/settings.cpp:operator():82: Renderer_DisableSpirvOptimizer: true
+[   4.355699] Config <Info> common/settings.cpp:operator():82: Renderer_Debug: false
+[   4.355699] Config <Info> common/settings.cpp:operator():82: Renderer_UseHwShader: true
+[   4.355699] Config <Info> common/settings.cpp:operator():82: Renderer_ShadersAccurateMul: true
+[   4.355700] Config <Info> common/settings.cpp:operator():82: Renderer_UseShaderJit: true
+[   4.355700] Config <Info> common/settings.cpp:operator():82: Renderer_UseResolutionFactor: 0
+[   4.355701] Config <Info> common/settings.cpp:operator():82: Renderer_FrameLimit: 100
+[   4.355702] Config <Info> common/settings.cpp:operator():82: Renderer_VSyncNew: true
+[   4.355702] Config <Info> common/settings.cpp:operator():82: Renderer_PostProcessingShader: None (builtin)
+[   4.355703] Config <Info> common/settings.cpp:operator():82: Renderer_FilterMode: false
+[   4.355703] Config <Info> common/settings.cpp:operator():82: Renderer_TextureFilter: None
+[   4.355704] Config <Info> common/settings.cpp:operator():82: Renderer_TextureSampling: GameControlled
+[   4.355704] Config <Info> common/settings.cpp:operator():82: Renderer_DelayGameRenderThreasUs: 0
+[   4.355704] Config <Info> common/settings.cpp:operator():82: Renderer_DisableRightEyeRender: false
+[   4.355705] Config <Info> common/settings.cpp:operator():82: Stereoscopy_Render3d: 0
+[   4.355706] Config <Info> common/settings.cpp:operator():82: Stereoscopy_Factor3d: 0
+[   4.355706] Config <Info> common/settings.cpp:operator():82: Stereoscopy_MonoRenderOption: 0
+[   4.355708] Config <Info> common/settings.cpp:operator():82: Layout_LayoutOption: 3
+[   4.355708] Config <Info> common/settings.cpp:operator():82: Layout_PortraitLayoutOption: 0
+[   4.355709] Config <Info> common/settings.cpp:operator():82: Layout_SecondaryDisplayLayout: 0
+[   4.355709] Config <Info> common/settings.cpp:operator():82: Layout_SwapScreen: false
+[   4.355709] Config <Info> common/settings.cpp:operator():82: Layout_UprightScreen: false
+[   4.355711] Config <Info> common/settings.cpp:operator():82: Layout_ScreenGap: 0
+[   4.355712] Config <Info> common/settings.cpp:operator():82: Layout_LargeScreenProportion: 4
+[   4.355712] Config <Info> common/settings.cpp:operator():82: Layout_SmallScreenPosition: 2
+[   4.355713] Config <Info> common/settings.cpp:operator():82: Utility_DumpTextures: false
+[   4.355713] Config <Info> common/settings.cpp:operator():82: Utility_CustomTextures: false
+[   4.355714] Config <Info> common/settings.cpp:operator():82: Utility_PreloadTextures: false
+[   4.355714] Config <Info> common/settings.cpp:operator():82: Utility_AsyncCustomLoading: true
+[   4.355714] Config <Info> common/settings.cpp:operator():82: Utility_UseDiskShaderCache: true
+[   4.355715] Config <Info> common/settings.cpp:operator():82: Audio_Emulation: HLE
+[   4.355721] Config <Info> common/settings.cpp:operator():82: Audio_OutputType: 0
+[   4.355723] Config <Info> common/settings.cpp:operator():82: Audio_OutputDevice: auto
+[   4.355724] Config <Info> common/settings.cpp:operator():82: Audio_InputType: 0
+[   4.355724] Config <Info> common/settings.cpp:operator():82: Audio_InputDevice: auto
+[   4.355724] Config <Info> common/settings.cpp:operator():82: Audio_EnableAudioStretching: false
+[   4.355725] Config <Info> common/settings.cpp:operator():82: Audio_EnableRealtime: false
+[   4.355725] Config <Info> common/settings.cpp:operator():82: Camera_OuterRightName: blank
+[   4.355725] Config <Info> common/settings.cpp:operator():82: Camera_OuterRightConfig: 
+[   4.355725] Config <Info> common/settings.cpp:operator():82: Camera_OuterRightFlip: 0
+[   4.355725] Config <Info> common/settings.cpp:operator():82: Camera_InnerName: blank
+[   4.355726] Config <Info> common/settings.cpp:operator():82: Camera_InnerConfig: 
+[   4.355726] Config <Info> common/settings.cpp:operator():82: Camera_InnerFlip: 0
+[   4.355726] Config <Info> common/settings.cpp:operator():82: Camera_OuterLeftName: blank
+[   4.355728] Config <Info> common/settings.cpp:operator():82: Camera_OuterLeftConfig: 
+[   4.355728] Config <Info> common/settings.cpp:operator():82: Camera_OuterLeftFlip: 0
+[   4.355728] Config <Info> common/settings.cpp:operator():82: DataStorage_UseVirtualSd: true
+[   4.355728] Config <Info> common/settings.cpp:operator():82: DataStorage_UseCustomStorage: false
+[   4.355729] Config <Info> common/settings.cpp:operator():82: System_IsNew3ds: true
+[   4.355729] Config <Info> common/settings.cpp:operator():82: System_LLEApplets: true
+[   4.355730] Config <Info> common/settings.cpp:operator():82: System_RegionValue: -1
+[   4.355731] Config <Info> common/settings.cpp:operator():82: System_PluginLoader: true
+[   4.355731] Config <Info> common/settings.cpp:operator():82: System_PluginLoaderAllowed: true
+[   4.355732] Config <Info> common/settings.cpp:operator():82: Debugging_DelayStartForLLEModules: true
+[   4.355732] Config <Info> common/settings.cpp:operator():82: Debugging_UseGdbstub: false
+[   4.355732] Config <Info> common/settings.cpp:operator():82: Debugging_GdbstubPort: 24689
+[   4.355733] Config <Info> common/settings.cpp:operator():82: Debugging_InstantDebugLog: false
+[   4.359520] Service.FS <Error> core/file_sys/ncch_container.cpp:LoadHeader:171: 16384
+[   4.452467] Audio.Sink <Info> audio_core/cubeb_sink.cpp:StateCallback:135: Cubeb Audio Stream Started
+[   4.456413] Input <Error> input_common/sdl/sdl_impl.cpp:Create:752: Unknown direction 
+[   4.456420] Input <Error> input_common/sdl/sdl_impl.cpp:Create:752: Unknown direction 
+[   4.458059] Service.HTTP <Error> core/hle/service/http/http_c.cpp:DecryptClCertA:2107: ClCertA file missing, using default
+[   4.499396] Render.Vulkan <Info> video_core/renderer_vulkan/vk_instance.cpp:operator():433: Enabling extension: VK_KHR_swapchain
+[   4.499401] Render.Vulkan <Info> video_core/renderer_vulkan/vk_instance.cpp:operator():433: Enabling extension: VK_KHR_image_format_list
+[   4.499404] Render.Vulkan <Warning> video_core/renderer_vulkan/vk_instance.cpp:operator():442: Extension VK_EXT_shader_stencil_export unavailable.
+[   4.499406] Render.Vulkan <Info> video_core/renderer_vulkan/vk_instance.cpp:operator():433: Enabling extension: VK_EXT_external_memory_host
+[   4.499407] Render.Vulkan <Info> video_core/renderer_vulkan/vk_instance.cpp:operator():433: Enabling extension: VK_EXT_tooling_info
+[   4.499408] Render.Vulkan <Info> video_core/renderer_vulkan/vk_instance.cpp:operator():433: Enabling extension: VK_KHR_timeline_semaphore
+[   4.499409] Render.Vulkan <Warning> video_core/renderer_vulkan/vk_instance.cpp:operator():442: Extension VK_KHR_portability_subset unavailable.
+[   4.499411] Render.Vulkan <Info> video_core/renderer_vulkan/vk_instance.cpp:operator():433: Enabling extension: VK_EXT_extended_dynamic_state
+[   4.499413] Render.Vulkan <Info> video_core/renderer_vulkan/vk_instance.cpp:operator():433: Enabling extension: VK_EXT_custom_border_color
+[   4.499414] Render.Vulkan <Info> video_core/renderer_vulkan/vk_instance.cpp:operator():433: Enabling extension: VK_EXT_index_type_uint8
+[   4.499415] Render.Vulkan <Warning> video_core/renderer_vulkan/vk_instance.cpp:operator():438: Extension VK_EXT_fragment_shader_interlock has been blacklisted because it is broken on Nvidia drivers
+[   4.499416] Render.Vulkan <Warning> video_core/renderer_vulkan/vk_instance.cpp:operator():438: Extension VK_EXT_pipeline_creation_cache_control has been blacklisted because it is broken on Nvidia drivers
+[   4.499417] Render.Vulkan <Info> video_core/renderer_vulkan/vk_instance.cpp:operator():433: Enabling extension: VK_KHR_fragment_shader_barycentric
+[   4.600598] Render.Vulkan <Warning> video_core/renderer_vulkan/vk_instance.cpp:CreateFormatTable:303: Format B8G8R8Unorm unsupported, falling back unconditionally to R8G8B8A8Unorm
+[   4.600602] Render.Vulkan <Warning> video_core/renderer_vulkan/vk_instance.cpp:CreateFormatTable:303: Format R5G5B5A1UnormPack16 unsupported, falling back unconditionally to R8G8B8A8Unorm
+[   4.600604] Render.Vulkan <Warning> video_core/renderer_vulkan/vk_instance.cpp:CreateFormatTable:303: Format R4G4B4A4UnormPack16 unsupported, falling back unconditionally to R8G8B8A8Unorm
+[   4.600636] Render.Vulkan <Info> video_core/renderer_vulkan/vk_instance.cpp:CollectToolingInfo:670: VK_DRIVER: NVIDIA 580.105.8.0
+[   4.600638] Render.Vulkan <Info> video_core/renderer_vulkan/vk_instance.cpp:CollectToolingInfo:671: VK_DEVICE: NVIDIA GeForce RTX 4060 Laptop GPU
+[   4.600638] Render.Vulkan <Info> video_core/renderer_vulkan/vk_instance.cpp:CollectToolingInfo:672: VK_VERSION: 1.4.312
+[   4.647097] Render.Vulkan <Info> video_core/renderer_vulkan/vk_stream_buffer.cpp:CreateBuffers:200: Creating Stream buffer with size 128 KiB with flags { DeviceLocal | HostVisible | HostCoherent }
+[   4.761338] Render.Vulkan <Info> video_core/renderer_vulkan/vk_stream_buffer.cpp:CreateBuffers:200: Creating Upload buffer with size 524288 KiB with flags { HostVisible | HostCoherent }
+[   4.901309] Render.Vulkan <Info> video_core/renderer_vulkan/vk_stream_buffer.cpp:CreateBuffers:200: Creating Download buffer with size 16384 KiB with flags { HostVisible | HostCoherent | HostCached }
+[   4.905283] Render.Vulkan <Info> video_core/renderer_vulkan/vk_stream_buffer.cpp:CreateBuffers:200: Creating Stream buffer with size 65536 KiB with flags { DeviceLocal | HostVisible | HostCoherent }
+[   4.905893] Render.Vulkan <Info> video_core/renderer_vulkan/vk_stream_buffer.cpp:CreateBuffers:200: Creating Stream buffer with size 8192 KiB with flags { DeviceLocal | HostVisible | HostCoherent }
+[   4.906352] Render.Vulkan <Info> video_core/renderer_vulkan/vk_stream_buffer.cpp:CreateBuffers:200: Creating Stream buffer with size 2048 KiB with flags { DeviceLocal | HostVisible | HostCoherent }
+[   4.906535] Render.Vulkan <Info> video_core/renderer_vulkan/vk_stream_buffer.cpp:CreateBuffers:200: Creating Stream buffer with size 2048 KiB with flags { DeviceLocal | HostVisible | HostCoherent }
+[   4.967384] Loader <Info> core/loader/ncch.cpp:Load:298: Program ID: 000400000018F000
+[   4.967405] Service.FS <Warning> core/file_sys/ncch_container.cpp:OpenFile:128: Failed to open /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/0004000e/0018f000/content/00000000.app
+[   4.990150] Loader <Info> core/hle/kernel/process.cpp:ParseKernelCaps:196: ExHeader kernel version: 2.33
+[   4.995257] Service.FS <Info> core/file_sys/ncch_container.cpp:LoadSectionExeFS:466: Attempting to load logo from the ExeFS
+[   5.008323] Service.CAM <Info> citra_qt/camera/qt_multimedia_camera.cpp:ResumeCameras:50: Resuming all cameras
+[   5.008877] Render.Vulkan <Error> video_core/renderer_vulkan/vk_pipeline_cache.cpp:IsCacheValid:541: Pipeline cache failed validation: Incorrect UUID
+[   5.008881] Render.Vulkan <Warning> video_core/renderer_vulkan/vk_pipeline_cache.cpp:LoadDiskCache:198: Pipeline cache invalid, removing
+[   5.072977] Frontend <Info> common/linux/gamemode.cpp:StartGamemode:17: Started gamemode
+[   5.290455] Service.SRV <Warning> core/hle/service/sm/srv.cpp:RegisterClient:64: (STUBBED) called. Caller PID=11
+[   5.290597] Service.SRV <Warning> core/hle/service/sm/srv.cpp:EnableNotification:86: (STUBBED) called
+[   5.293511] Service.NDM <Warning> core/hle/service/ndm/ndm_u.cpp:OverrideDefaultDaemons:186: (STUBBED) bit_mask=0x0000000F
+[   5.293893] Service.NDM <Warning> core/hle/service/ndm/ndm_u.cpp:SuspendDaemons:74: (STUBBED) bit_mask=0x00000006
+[   5.294258] Service.APT <Warning> core/hle/service/apt/apt.cpp:NotifyToWait:347: (STUBBED) app_id=768
+[   5.295633] Service.APT <Warning> core/hle/service/apt/apt.cpp:AppletUtility:698: (STUBBED) called command=0X00000007, input_size=0X00000004, output_size=0X00000001
+[   5.295795] Service.APT <Warning> core/hle/service/apt/apt.cpp:AppletUtility:698: (STUBBED) called command=0X00000004, input_size=0X00000001, output_size=0X00000001
+[   5.296191] Service.APT <Warning> core/hle/service/apt/apt.cpp:SetAppCpuTimeLimit:719: (STUBBED) called, must_be_one=1, value=20
+[   5.296992] Service.FS <Warning> core/hle/service/fs/fs_user.cpp:InitializeWithSdkVersion:1071: (STUBBED) called, version: 0x040203C8
+[   5.298400] Service.FS <Error> ./core/file_sys/archive_backend.h:GetOpenDelayNs:209: Delay generator was not initalized. Using default
+[   5.653145] Service.FS <Error> ./core/file_sys/archive_backend.h:GetOpenDelayNs:209: Delay generator was not initalized. Using default
+[   5.817815] Service.DSP <Info> audio_core/hle/hle.cpp:LoadComponent:469: Firmware hash: 0xe031661c89e654ee
+[   5.817819] Service.DSP <Info> audio_core/hle/hle.cpp:LoadComponent:473: Structures hash: 0x228655de1258d999
+[   5.817819] Service.DSP <Info> core/hle/service/dsp/dsp_dsp.cpp:LoadComponent:192: called size=0xC234, prog_mask=0x00FF, data_mask=0x00FF
+[   5.818181] Service.DSP <Info> core/hle/service/dsp/dsp_dsp.cpp:RegisterInterruptEvents:259: Registered interrupt=2, channel=2, event=event-001423c4
+[   5.818291] Service.DSP <Warning> core/hle/service/dsp/dsp_dsp.cpp:GetSemaphoreEventHandle:275: (STUBBED) called
+[   5.818394] Service.DSP <Warning> core/hle/service/dsp/dsp_dsp.cpp:SetSemaphoreMask:285: (STUBBED) called mask=0x2000
+[   5.818555] Audio.DSP <Info> audio_core/hle/hle.cpp:PipeWrite:227: Application has requested initialization of DSP hardware
+[   5.818629] Service.DSP <Info> core/hle/service/dsp/dsp_dsp.cpp:SetSemaphore:57: called, semaphore_value=4000
+[   5.819268] Service.DSP <Info> core/hle/service/dsp/dsp_dsp.cpp:SetSemaphore:57: called, semaphore_value=4000
+[   5.824838] Service.CECD <Warning> core/hle/service/cecd/cecd.cpp:GetCecdState:705: (STUBBED) called
+[   5.824950] Service.CECD <Warning> core/hle/service/cecd/cecd.cpp:GetCecInfoEventHandle:715: (STUBBED) called
+[   5.825175] Service.NDM <Warning> core/hle/service/ndm/ndm_u.cpp:SuspendDaemons:74: (STUBBED) bit_mask=0x00000001
+[   5.830270] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:67: Path not found /home/keit/.local/share/azahar-emu/nand/data/00000000000000000000000000000000/sysdata/00010026/00000000/CEC/0018f000/MBoxInfo____
+[   5.830724] Service.NDM <Warning> core/hle/service/ndm/ndm_u.cpp:ResumeDaemons:89: (STUBBED) bit_mask=0x00000001
+[   5.831044] Service.APT <Warning> core/hle/service/apt/apt.cpp:AppletUtility:698: (STUBBED) called command=0X00000004, input_size=0X00000001, output_size=0X00000001
+[   9.410949] Service.CFG <Info> core/hle/service/cfg/cfg.cpp:UpdatePreferredRegionCode:1073: Preferred region code set to 2
+[   9.411001] Service.FS <Warning> core/file_sys/archive_ncch.cpp:OpenFile:161: Shared Font file missing. Loading open source replacement from memory
+[   9.457978] Service.FS <Error> ./core/file_sys/archive_backend.h:GetOpenDelayNs:209: Delay generator was not initalized. Using default
+[   9.493842] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[   9.507094] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[   9.507203] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[  17.740708] Service.FS <Warning> core/hle/service/fs/file.cpp:OpenLinkFile:375: (STUBBED) File command OpenLinkFile Path: [Binary: 000000000000000000000000]
+[  20.377562] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[  22.617583] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[  22.633674] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[  22.633816] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[  22.684650] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[  22.700235] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[  22.700320] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[  22.753185] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[  22.767136] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[  22.767262] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[  22.818949] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[  22.833995] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[  22.834120] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[  22.885034] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[  22.900867] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[  22.900972] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[  22.951872] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[  22.967677] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[  22.967764] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[  23.018889] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[  23.034512] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[  23.034628] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[  23.085602] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[  23.101395] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[  23.101481] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[  23.152388] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[  23.168334] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[  23.168604] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[  23.219237] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[  23.235112] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[  23.235171] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[  23.286072] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[  23.301943] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[  23.302031] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[  23.353225] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[  23.368819] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[  23.368906] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[  23.419885] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[  23.435693] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[  23.435758] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[  24.087897] Service.CECD <Warning> core/hle/service/cecd/cecd.cpp:GetCecdState:705: (STUBBED) called
+[  24.087910] Service.NDM <Warning> core/hle/service/ndm/ndm_u.cpp:SuspendDaemons:74: (STUBBED) bit_mask=0x00000001
+[  24.104154] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:67: Path not found /home/keit/.local/share/azahar-emu/nand/data/00000000000000000000000000000000/sysdata/00010026/00000000/CEC/0018f000/MBoxInfo____
+[  24.104175] Service.NDM <Warning> core/hle/service/ndm/ndm_u.cpp:ResumeDaemons:89: (STUBBED) bit_mask=0x00000001
+[ 435.928107] Audio.Sink <Info> audio_core/cubeb_sink.cpp:StateCallback:138: Cubeb Audio Stream Stopped
+[ 435.958123] Audio.Sink <Info> audio_core/cubeb_sink.cpp:StateCallback:135: Cubeb Audio Stream Started
+[ 435.958145] Config <Info> common/settings.cpp:LogSettings:85: Azahar Configuration:
+[ 435.958149] Config <Info> common/settings.cpp:operator():82: Core_UseCpuJit: true
+[ 435.958150] Config <Info> common/settings.cpp:operator():82: Core_CPUClockPercentage: 100
+[ 435.958151] Config <Info> common/settings.cpp:operator():82: Controller_UseArticController: false
+[ 435.958152] Config <Info> common/settings.cpp:operator():82: Renderer_UseGLES: false
+[ 435.958157] Config <Info> common/settings.cpp:operator():82: Renderer_GraphicsAPI: Vulkan
+[ 435.958157] Config <Info> common/settings.cpp:operator():82: Renderer_AsyncShaders: true
+[ 435.958158] Config <Info> common/settings.cpp:operator():82: Renderer_AsyncPresentation: true
+[ 435.958159] Config <Info> common/settings.cpp:operator():82: Renderer_SpirvShaderGen: true
+[ 435.958160] Config <Info> common/settings.cpp:operator():82: Renderer_DisableSpirvOptimizer: true
+[ 435.958162] Config <Info> common/settings.cpp:operator():82: Renderer_Debug: false
+[ 435.958162] Config <Info> common/settings.cpp:operator():82: Renderer_UseHwShader: true
+[ 435.958162] Config <Info> common/settings.cpp:operator():82: Renderer_ShadersAccurateMul: true
+[ 435.958163] Config <Info> common/settings.cpp:operator():82: Renderer_UseShaderJit: true
+[ 435.958164] Config <Info> common/settings.cpp:operator():82: Renderer_UseResolutionFactor: 0
+[ 435.958165] Config <Info> common/settings.cpp:operator():82: Renderer_FrameLimit: 100
+[ 435.958165] Config <Info> common/settings.cpp:operator():82: Renderer_VSyncNew: true
+[ 435.958166] Config <Info> common/settings.cpp:operator():82: Renderer_PostProcessingShader: None (builtin)
+[ 435.958169] Config <Info> common/settings.cpp:operator():82: Renderer_FilterMode: false
+[ 435.958171] Config <Info> common/settings.cpp:operator():82: Renderer_TextureFilter: None
+[ 435.958172] Config <Info> common/settings.cpp:operator():82: Renderer_TextureSampling: GameControlled
+[ 435.958172] Config <Info> common/settings.cpp:operator():82: Renderer_DelayGameRenderThreasUs: 0
+[ 435.958173] Config <Info> common/settings.cpp:operator():82: Renderer_DisableRightEyeRender: false
+[ 435.958174] Config <Info> common/settings.cpp:operator():82: Stereoscopy_Render3d: 0
+[ 435.958175] Config <Info> common/settings.cpp:operator():82: Stereoscopy_Factor3d: 0
+[ 435.958177] Config <Info> common/settings.cpp:operator():82: Stereoscopy_MonoRenderOption: 0
+[ 435.958178] Config <Info> common/settings.cpp:operator():82: Layout_LayoutOption: 5
+[ 435.958181] Config <Info> common/settings.cpp:operator():82: Layout_PortraitLayoutOption: 0
+[ 435.958182] Config <Info> common/settings.cpp:operator():82: Layout_SecondaryDisplayLayout: 0
+[ 435.958183] Config <Info> common/settings.cpp:operator():82: Layout_SwapScreen: false
+[ 435.958183] Config <Info> common/settings.cpp:operator():82: Layout_UprightScreen: false
+[ 435.958184] Config <Info> common/settings.cpp:operator():82: Layout_ScreenGap: 0
+[ 435.958185] Config <Info> common/settings.cpp:operator():82: Layout_LargeScreenProportion: 4
+[ 435.958186] Config <Info> common/settings.cpp:operator():82: Layout_SmallScreenPosition: 2
+[ 435.958187] Config <Info> common/settings.cpp:operator():82: Utility_DumpTextures: false
+[ 435.958187] Config <Info> common/settings.cpp:operator():82: Utility_CustomTextures: false
+[ 435.958188] Config <Info> common/settings.cpp:operator():82: Utility_PreloadTextures: false
+[ 435.958188] Config <Info> common/settings.cpp:operator():82: Utility_AsyncCustomLoading: true
+[ 435.958190] Config <Info> common/settings.cpp:operator():82: Utility_UseDiskShaderCache: true
+[ 435.958191] Config <Info> common/settings.cpp:operator():82: Audio_Emulation: HLE
+[ 435.958191] Config <Info> common/settings.cpp:operator():82: Audio_OutputType: 0
+[ 435.958192] Config <Info> common/settings.cpp:operator():82: Audio_OutputDevice: auto
+[ 435.958193] Config <Info> common/settings.cpp:operator():82: Audio_InputType: 0
+[ 435.958193] Config <Info> common/settings.cpp:operator():82: Audio_InputDevice: auto
+[ 435.958194] Config <Info> common/settings.cpp:operator():82: Audio_EnableAudioStretching: false
+[ 435.958194] Config <Info> common/settings.cpp:operator():82: Audio_EnableRealtime: false
+[ 435.958195] Config <Info> common/settings.cpp:operator():82: Camera_OuterRightName: blank
+[ 435.958195] Config <Info> common/settings.cpp:operator():82: Camera_OuterRightConfig: 
+[ 435.958196] Config <Info> common/settings.cpp:operator():82: Camera_OuterRightFlip: 0
+[ 435.958196] Config <Info> common/settings.cpp:operator():82: Camera_InnerName: blank
+[ 435.958196] Config <Info> common/settings.cpp:operator():82: Camera_InnerConfig: 
+[ 435.958198] Config <Info> common/settings.cpp:operator():82: Camera_InnerFlip: 0
+[ 435.958198] Config <Info> common/settings.cpp:operator():82: Camera_OuterLeftName: blank
+[ 435.958199] Config <Info> common/settings.cpp:operator():82: Camera_OuterLeftConfig: 
+[ 435.958199] Config <Info> common/settings.cpp:operator():82: Camera_OuterLeftFlip: 0
+[ 435.958200] Config <Info> common/settings.cpp:operator():82: DataStorage_UseVirtualSd: true
+[ 435.958200] Config <Info> common/settings.cpp:operator():82: DataStorage_UseCustomStorage: false
+[ 435.958201] Config <Info> common/settings.cpp:operator():82: System_IsNew3ds: true
+[ 435.958201] Config <Info> common/settings.cpp:operator():82: System_LLEApplets: true
+[ 435.958201] Config <Info> common/settings.cpp:operator():82: System_RegionValue: -1
+[ 435.958202] Config <Info> common/settings.cpp:operator():82: System_PluginLoader: true
+[ 435.958203] Config <Info> common/settings.cpp:operator():82: System_PluginLoaderAllowed: true
+[ 435.958207] Config <Info> common/settings.cpp:operator():82: Debugging_DelayStartForLLEModules: true
+[ 435.958208] Config <Info> common/settings.cpp:operator():82: Debugging_UseGdbstub: false
+[ 435.958208] Config <Info> common/settings.cpp:operator():82: Debugging_GdbstubPort: 24689
+[ 435.958209] Config <Info> common/settings.cpp:operator():82: Debugging_InstantDebugLog: false
+[ 435.959717] Frontend <Info> citra_qt/game_list.cpp:RefreshGameDirectory:1049: Change detected in the applications directory. Reloading game list.
+[ 467.936547] Audio.Sink <Info> audio_core/cubeb_sink.cpp:StateCallback:138: Cubeb Audio Stream Stopped
+[ 467.966624] Audio.Sink <Info> audio_core/cubeb_sink.cpp:StateCallback:135: Cubeb Audio Stream Started
+[ 511.046193] Audio.Sink <Info> audio_core/cubeb_sink.cpp:StateCallback:138: Cubeb Audio Stream Stopped
+[ 511.077253] Audio.Sink <Info> audio_core/cubeb_sink.cpp:StateCallback:135: Cubeb Audio Stream Started
+[ 511.077276] Config <Info> common/settings.cpp:LogSettings:85: Azahar Configuration:
+[ 511.077278] Config <Info> common/settings.cpp:operator():82: Core_UseCpuJit: true
+[ 511.077279] Config <Info> common/settings.cpp:operator():82: Core_CPUClockPercentage: 100
+[ 511.077280] Config <Info> common/settings.cpp:operator():82: Controller_UseArticController: false
+[ 511.077281] Config <Info> common/settings.cpp:operator():82: Renderer_UseGLES: false
+[ 511.077281] Config <Info> common/settings.cpp:operator():82: Renderer_GraphicsAPI: Vulkan
+[ 511.077282] Config <Info> common/settings.cpp:operator():82: Renderer_AsyncShaders: true
+[ 511.077283] Config <Info> common/settings.cpp:operator():82: Renderer_AsyncPresentation: true
+[ 511.077283] Config <Info> common/settings.cpp:operator():82: Renderer_SpirvShaderGen: true
+[ 511.077288] Config <Info> common/settings.cpp:operator():82: Renderer_DisableSpirvOptimizer: true
+[ 511.077288] Config <Info> common/settings.cpp:operator():82: Renderer_Debug: false
+[ 511.077288] Config <Info> common/settings.cpp:operator():82: Renderer_UseHwShader: true
+[ 511.077288] Config <Info> common/settings.cpp:operator():82: Renderer_ShadersAccurateMul: true
+[ 511.077289] Config <Info> common/settings.cpp:operator():82: Renderer_UseShaderJit: true
+[ 511.077289] Config <Info> common/settings.cpp:operator():82: Renderer_UseResolutionFactor: 0
+[ 511.077290] Config <Info> common/settings.cpp:operator():82: Renderer_FrameLimit: 100
+[ 511.077290] Config <Info> common/settings.cpp:operator():82: Renderer_VSyncNew: true
+[ 511.077291] Config <Info> common/settings.cpp:operator():82: Renderer_PostProcessingShader: None (builtin)
+[ 511.077293] Config <Info> common/settings.cpp:operator():82: Renderer_FilterMode: false
+[ 511.077294] Config <Info> common/settings.cpp:operator():82: Renderer_TextureFilter: None
+[ 511.077294] Config <Info> common/settings.cpp:operator():82: Renderer_TextureSampling: GameControlled
+[ 511.077295] Config <Info> common/settings.cpp:operator():82: Renderer_DelayGameRenderThreasUs: 0
+[ 511.077296] Config <Info> common/settings.cpp:operator():82: Renderer_DisableRightEyeRender: false
+[ 511.077297] Config <Info> common/settings.cpp:operator():82: Stereoscopy_Render3d: 0
+[ 511.077297] Config <Info> common/settings.cpp:operator():82: Stereoscopy_Factor3d: 0
+[ 511.077300] Config <Info> common/settings.cpp:operator():82: Stereoscopy_MonoRenderOption: 0
+[ 511.077300] Config <Info> common/settings.cpp:operator():82: Layout_LayoutOption: 5
+[ 511.077301] Config <Info> common/settings.cpp:operator():82: Layout_PortraitLayoutOption: 0
+[ 511.077301] Config <Info> common/settings.cpp:operator():82: Layout_SecondaryDisplayLayout: 0
+[ 511.077302] Config <Info> common/settings.cpp:operator():82: Layout_SwapScreen: false
+[ 511.077303] Config <Info> common/settings.cpp:operator():82: Layout_UprightScreen: false
+[ 511.077303] Config <Info> common/settings.cpp:operator():82: Layout_ScreenGap: 0
+[ 511.077304] Config <Info> common/settings.cpp:operator():82: Layout_LargeScreenProportion: 4
+[ 511.077305] Config <Info> common/settings.cpp:operator():82: Layout_SmallScreenPosition: 2
+[ 511.077305] Config <Info> common/settings.cpp:operator():82: Utility_DumpTextures: false
+[ 511.077306] Config <Info> common/settings.cpp:operator():82: Utility_CustomTextures: false
+[ 511.077306] Config <Info> common/settings.cpp:operator():82: Utility_PreloadTextures: false
+[ 511.077307] Config <Info> common/settings.cpp:operator():82: Utility_AsyncCustomLoading: true
+[ 511.077307] Config <Info> common/settings.cpp:operator():82: Utility_UseDiskShaderCache: true
+[ 511.077308] Config <Info> common/settings.cpp:operator():82: Audio_Emulation: HLE
+[ 511.077308] Config <Info> common/settings.cpp:operator():82: Audio_OutputType: 0
+[ 511.077308] Config <Info> common/settings.cpp:operator():82: Audio_OutputDevice: auto
+[ 511.077309] Config <Info> common/settings.cpp:operator():82: Audio_InputType: 0
+[ 511.077309] Config <Info> common/settings.cpp:operator():82: Audio_InputDevice: auto
+[ 511.077309] Config <Info> common/settings.cpp:operator():82: Audio_EnableAudioStretching: false
+[ 511.077310] Config <Info> common/settings.cpp:operator():82: Audio_EnableRealtime: false
+[ 511.077310] Config <Info> common/settings.cpp:operator():82: Camera_OuterRightName: blank
+[ 511.077310] Config <Info> common/settings.cpp:operator():82: Camera_OuterRightConfig: 
+[ 511.077310] Config <Info> common/settings.cpp:operator():82: Camera_OuterRightFlip: 0
+[ 511.077311] Config <Info> common/settings.cpp:operator():82: Camera_InnerName: blank
+[ 511.077311] Config <Info> common/settings.cpp:operator():82: Camera_InnerConfig: 
+[ 511.077313] Config <Info> common/settings.cpp:operator():82: Camera_InnerFlip: 0
+[ 511.077313] Config <Info> common/settings.cpp:operator():82: Camera_OuterLeftName: blank
+[ 511.077313] Config <Info> common/settings.cpp:operator():82: Camera_OuterLeftConfig: 
+[ 511.077314] Config <Info> common/settings.cpp:operator():82: Camera_OuterLeftFlip: 0
+[ 511.077314] Config <Info> common/settings.cpp:operator():82: DataStorage_UseVirtualSd: true
+[ 511.077315] Config <Info> common/settings.cpp:operator():82: DataStorage_UseCustomStorage: false
+[ 511.077315] Config <Info> common/settings.cpp:operator():82: System_IsNew3ds: true
+[ 511.077315] Config <Info> common/settings.cpp:operator():82: System_LLEApplets: true
+[ 511.077315] Config <Info> common/settings.cpp:operator():82: System_RegionValue: -1
+[ 511.077316] Config <Info> common/settings.cpp:operator():82: System_PluginLoader: true
+[ 511.077316] Config <Info> common/settings.cpp:operator():82: System_PluginLoaderAllowed: true
+[ 511.077316] Config <Info> common/settings.cpp:operator():82: Debugging_DelayStartForLLEModules: true
+[ 511.077317] Config <Info> common/settings.cpp:operator():82: Debugging_UseGdbstub: false
+[ 511.077317] Config <Info> common/settings.cpp:operator():82: Debugging_GdbstubPort: 24689
+[ 511.077318] Config <Info> common/settings.cpp:operator():82: Debugging_InstantDebugLog: false
+[ 511.077992] Frontend <Info> citra_qt/game_list.cpp:RefreshGameDirectory:1049: Change detected in the applications directory. Reloading game list.
+[ 550.807002] Audio.Sink <Info> audio_core/cubeb_sink.cpp:StateCallback:138: Cubeb Audio Stream Stopped
+[ 550.838326] Audio.Sink <Info> audio_core/cubeb_sink.cpp:StateCallback:135: Cubeb Audio Stream Started
+[ 550.838350] Config <Info> common/settings.cpp:LogSettings:85: Azahar Configuration:
+[ 550.838354] Config <Info> common/settings.cpp:operator():82: Core_UseCpuJit: true
+[ 550.838355] Config <Info> common/settings.cpp:operator():82: Core_CPUClockPercentage: 100
+[ 550.838356] Config <Info> common/settings.cpp:operator():82: Controller_UseArticController: false
+[ 550.838356] Config <Info> common/settings.cpp:operator():82: Renderer_UseGLES: false
+[ 550.838357] Config <Info> common/settings.cpp:operator():82: Renderer_GraphicsAPI: Vulkan
+[ 550.838358] Config <Info> common/settings.cpp:operator():82: Renderer_AsyncShaders: true
+[ 550.838359] Config <Info> common/settings.cpp:operator():82: Renderer_AsyncPresentation: true
+[ 550.838360] Config <Info> common/settings.cpp:operator():82: Renderer_SpirvShaderGen: true
+[ 550.838360] Config <Info> common/settings.cpp:operator():82: Renderer_DisableSpirvOptimizer: true
+[ 550.838361] Config <Info> common/settings.cpp:operator():82: Renderer_Debug: false
+[ 550.838362] Config <Info> common/settings.cpp:operator():82: Renderer_UseHwShader: true
+[ 550.838364] Config <Info> common/settings.cpp:operator():82: Renderer_ShadersAccurateMul: true
+[ 550.838365] Config <Info> common/settings.cpp:operator():82: Renderer_UseShaderJit: true
+[ 550.838366] Config <Info> common/settings.cpp:operator():82: Renderer_UseResolutionFactor: 0
+[ 550.838369] Config <Info> common/settings.cpp:operator():82: Renderer_FrameLimit: 100
+[ 550.838372] Config <Info> common/settings.cpp:operator():82: Renderer_VSyncNew: true
+[ 550.838373] Config <Info> common/settings.cpp:operator():82: Renderer_PostProcessingShader: None (builtin)
+[ 550.838373] Config <Info> common/settings.cpp:operator():82: Renderer_FilterMode: false
+[ 550.838374] Config <Info> common/settings.cpp:operator():82: Renderer_TextureFilter: None
+[ 550.838375] Config <Info> common/settings.cpp:operator():82: Renderer_TextureSampling: GameControlled
+[ 550.838375] Config <Info> common/settings.cpp:operator():82: Renderer_DelayGameRenderThreasUs: 0
+[ 550.838376] Config <Info> common/settings.cpp:operator():82: Renderer_DisableRightEyeRender: false
+[ 550.838379] Config <Info> common/settings.cpp:operator():82: Stereoscopy_Render3d: 0
+[ 550.838379] Config <Info> common/settings.cpp:operator():82: Stereoscopy_Factor3d: 0
+[ 550.838382] Config <Info> common/settings.cpp:operator():82: Stereoscopy_MonoRenderOption: 0
+[ 550.838383] Config <Info> common/settings.cpp:operator():82: Layout_LayoutOption: 6
+[ 550.838384] Config <Info> common/settings.cpp:operator():82: Layout_PortraitLayoutOption: 0
+[ 550.838386] Config <Info> common/settings.cpp:operator():82: Layout_SecondaryDisplayLayout: 0
+[ 550.838389] Config <Info> common/settings.cpp:operator():82: Layout_SwapScreen: false
+[ 550.838390] Config <Info> common/settings.cpp:operator():82: Layout_UprightScreen: false
+[ 550.838390] Config <Info> common/settings.cpp:operator():82: Layout_ScreenGap: 0
+[ 550.838391] Config <Info> common/settings.cpp:operator():82: Layout_LargeScreenProportion: 4
+[ 550.838391] Config <Info> common/settings.cpp:operator():82: Layout_SmallScreenPosition: 2
+[ 550.838392] Config <Info> common/settings.cpp:operator():82: Utility_DumpTextures: false
+[ 550.838392] Config <Info> common/settings.cpp:operator():82: Utility_CustomTextures: false
+[ 550.838393] Config <Info> common/settings.cpp:operator():82: Utility_PreloadTextures: false
+[ 550.838393] Config <Info> common/settings.cpp:operator():82: Utility_AsyncCustomLoading: true
+[ 550.838393] Config <Info> common/settings.cpp:operator():82: Utility_UseDiskShaderCache: true
+[ 550.838394] Config <Info> common/settings.cpp:operator():82: Audio_Emulation: HLE
+[ 550.838395] Config <Info> common/settings.cpp:operator():82: Audio_OutputType: 0
+[ 550.838396] Config <Info> common/settings.cpp:operator():82: Audio_OutputDevice: auto
+[ 550.838396] Config <Info> common/settings.cpp:operator():82: Audio_InputType: 0
+[ 550.838397] Config <Info> common/settings.cpp:operator():82: Audio_InputDevice: auto
+[ 550.838397] Config <Info> common/settings.cpp:operator():82: Audio_EnableAudioStretching: false
+[ 550.838397] Config <Info> common/settings.cpp:operator():82: Audio_EnableRealtime: false
+[ 550.838398] Config <Info> common/settings.cpp:operator():82: Camera_OuterRightName: blank
+[ 550.838398] Config <Info> common/settings.cpp:operator():82: Camera_OuterRightConfig: 
+[ 550.838398] Config <Info> common/settings.cpp:operator():82: Camera_OuterRightFlip: 0
+[ 550.838399] Config <Info> common/settings.cpp:operator():82: Camera_InnerName: blank
+[ 550.838399] Config <Info> common/settings.cpp:operator():82: Camera_InnerConfig: 
+[ 550.838400] Config <Info> common/settings.cpp:operator():82: Camera_InnerFlip: 0
+[ 550.838400] Config <Info> common/settings.cpp:operator():82: Camera_OuterLeftName: blank
+[ 550.838401] Config <Info> common/settings.cpp:operator():82: Camera_OuterLeftConfig: 
+[ 550.838401] Config <Info> common/settings.cpp:operator():82: Camera_OuterLeftFlip: 0
+[ 550.838401] Config <Info> common/settings.cpp:operator():82: DataStorage_UseVirtualSd: true
+[ 550.838402] Config <Info> common/settings.cpp:operator():82: DataStorage_UseCustomStorage: false
+[ 550.838402] Config <Info> common/settings.cpp:operator():82: System_IsNew3ds: true
+[ 550.838402] Config <Info> common/settings.cpp:operator():82: System_LLEApplets: true
+[ 550.838403] Config <Info> common/settings.cpp:operator():82: System_RegionValue: -1
+[ 550.838403] Config <Info> common/settings.cpp:operator():82: System_PluginLoader: true
+[ 550.838403] Config <Info> common/settings.cpp:operator():82: System_PluginLoaderAllowed: true
+[ 550.838404] Config <Info> common/settings.cpp:operator():82: Debugging_DelayStartForLLEModules: true
+[ 550.838404] Config <Info> common/settings.cpp:operator():82: Debugging_UseGdbstub: false
+[ 550.838405] Config <Info> common/settings.cpp:operator():82: Debugging_GdbstubPort: 24689
+[ 550.838406] Config <Info> common/settings.cpp:operator():82: Debugging_InstantDebugLog: false
+[ 550.839379] Frontend <Info> citra_qt/game_list.cpp:RefreshGameDirectory:1049: Change detected in the applications directory. Reloading game list.
+[ 705.412386] Audio.Sink <Info> audio_core/cubeb_sink.cpp:StateCallback:138: Cubeb Audio Stream Stopped
+[ 705.441906] Audio.Sink <Info> audio_core/cubeb_sink.cpp:StateCallback:135: Cubeb Audio Stream Started
+[ 705.441927] Config <Info> common/settings.cpp:LogSettings:85: Azahar Configuration:
+[ 705.441929] Config <Info> common/settings.cpp:operator():82: Core_UseCpuJit: true
+[ 705.441930] Config <Info> common/settings.cpp:operator():82: Core_CPUClockPercentage: 100
+[ 705.441930] Config <Info> common/settings.cpp:operator():82: Controller_UseArticController: false
+[ 705.441931] Config <Info> common/settings.cpp:operator():82: Renderer_UseGLES: false
+[ 705.441931] Config <Info> common/settings.cpp:operator():82: Renderer_GraphicsAPI: Vulkan
+[ 705.441932] Config <Info> common/settings.cpp:operator():82: Renderer_AsyncShaders: true
+[ 705.441932] Config <Info> common/settings.cpp:operator():82: Renderer_AsyncPresentation: true
+[ 705.441933] Config <Info> common/settings.cpp:operator():82: Renderer_SpirvShaderGen: true
+[ 705.441935] Config <Info> common/settings.cpp:operator():82: Renderer_DisableSpirvOptimizer: true
+[ 705.441936] Config <Info> common/settings.cpp:operator():82: Renderer_Debug: false
+[ 705.441937] Config <Info> common/settings.cpp:operator():82: Renderer_UseHwShader: true
+[ 705.441938] Config <Info> common/settings.cpp:operator():82: Renderer_ShadersAccurateMul: true
+[ 705.441939] Config <Info> common/settings.cpp:operator():82: Renderer_UseShaderJit: true
+[ 705.441940] Config <Info> common/settings.cpp:operator():82: Renderer_UseResolutionFactor: 0
+[ 705.441941] Config <Info> common/settings.cpp:operator():82: Renderer_FrameLimit: 100
+[ 705.441941] Config <Info> common/settings.cpp:operator():82: Renderer_VSyncNew: true
+[ 705.441942] Config <Info> common/settings.cpp:operator():82: Renderer_PostProcessingShader: None (builtin)
+[ 705.441945] Config <Info> common/settings.cpp:operator():82: Renderer_FilterMode: false
+[ 705.441945] Config <Info> common/settings.cpp:operator():82: Renderer_TextureFilter: None
+[ 705.441947] Config <Info> common/settings.cpp:operator():82: Renderer_TextureSampling: GameControlled
+[ 705.441947] Config <Info> common/settings.cpp:operator():82: Renderer_DelayGameRenderThreasUs: 0
+[ 705.441948] Config <Info> common/settings.cpp:operator():82: Renderer_DisableRightEyeRender: false
+[ 705.441949] Config <Info> common/settings.cpp:operator():82: Stereoscopy_Render3d: 0
+[ 705.441949] Config <Info> common/settings.cpp:operator():82: Stereoscopy_Factor3d: 0
+[ 705.441952] Config <Info> common/settings.cpp:operator():82: Stereoscopy_MonoRenderOption: 0
+[ 705.441952] Config <Info> common/settings.cpp:operator():82: Layout_LayoutOption: 6
+[ 705.441953] Config <Info> common/settings.cpp:operator():82: Layout_PortraitLayoutOption: 0
+[ 705.441953] Config <Info> common/settings.cpp:operator():82: Layout_SecondaryDisplayLayout: 0
+[ 705.441954] Config <Info> common/settings.cpp:operator():82: Layout_SwapScreen: false
+[ 705.441954] Config <Info> common/settings.cpp:operator():82: Layout_UprightScreen: false
+[ 705.441954] Config <Info> common/settings.cpp:operator():82: Layout_ScreenGap: 0
+[ 705.441955] Config <Info> common/settings.cpp:operator():82: Layout_LargeScreenProportion: 4
+[ 705.441957] Config <Info> common/settings.cpp:operator():82: Layout_SmallScreenPosition: 2
+[ 705.441957] Config <Info> common/settings.cpp:operator():82: Utility_DumpTextures: false
+[ 705.441958] Config <Info> common/settings.cpp:operator():82: Utility_CustomTextures: false
+[ 705.441958] Config <Info> common/settings.cpp:operator():82: Utility_PreloadTextures: false
+[ 705.441958] Config <Info> common/settings.cpp:operator():82: Utility_AsyncCustomLoading: true
+[ 705.441959] Config <Info> common/settings.cpp:operator():82: Utility_UseDiskShaderCache: true
+[ 705.441959] Config <Info> common/settings.cpp:operator():82: Audio_Emulation: HLE
+[ 705.441959] Config <Info> common/settings.cpp:operator():82: Audio_OutputType: 0
+[ 705.441960] Config <Info> common/settings.cpp:operator():82: Audio_OutputDevice: auto
+[ 705.441960] Config <Info> common/settings.cpp:operator():82: Audio_InputType: 0
+[ 705.441960] Config <Info> common/settings.cpp:operator():82: Audio_InputDevice: auto
+[ 705.441961] Config <Info> common/settings.cpp:operator():82: Audio_EnableAudioStretching: false
+[ 705.441962] Config <Info> common/settings.cpp:operator():82: Audio_EnableRealtime: false
+[ 705.441962] Config <Info> common/settings.cpp:operator():82: Camera_OuterRightName: blank
+[ 705.441962] Config <Info> common/settings.cpp:operator():82: Camera_OuterRightConfig: 
+[ 705.441963] Config <Info> common/settings.cpp:operator():82: Camera_OuterRightFlip: 0
+[ 705.441963] Config <Info> common/settings.cpp:operator():82: Camera_InnerName: blank
+[ 705.441963] Config <Info> common/settings.cpp:operator():82: Camera_InnerConfig: 
+[ 705.441965] Config <Info> common/settings.cpp:operator():82: Camera_InnerFlip: 0
+[ 705.441965] Config <Info> common/settings.cpp:operator():82: Camera_OuterLeftName: blank
+[ 705.441965] Config <Info> common/settings.cpp:operator():82: Camera_OuterLeftConfig: 
+[ 705.441965] Config <Info> common/settings.cpp:operator():82: Camera_OuterLeftFlip: 0
+[ 705.441966] Config <Info> common/settings.cpp:operator():82: DataStorage_UseVirtualSd: true
+[ 705.441966] Config <Info> common/settings.cpp:operator():82: DataStorage_UseCustomStorage: false
+[ 705.441968] Config <Info> common/settings.cpp:operator():82: System_IsNew3ds: true
+[ 705.441968] Config <Info> common/settings.cpp:operator():82: System_LLEApplets: true
+[ 705.441968] Config <Info> common/settings.cpp:operator():82: System_RegionValue: -1
+[ 705.441969] Config <Info> common/settings.cpp:operator():82: System_PluginLoader: true
+[ 705.441969] Config <Info> common/settings.cpp:operator():82: System_PluginLoaderAllowed: true
+[ 705.441969] Config <Info> common/settings.cpp:operator():82: Debugging_DelayStartForLLEModules: true
+[ 705.441969] Config <Info> common/settings.cpp:operator():82: Debugging_UseGdbstub: false
+[ 705.441970] Config <Info> common/settings.cpp:operator():82: Debugging_GdbstubPort: 24689
+[ 705.441970] Config <Info> common/settings.cpp:operator():82: Debugging_InstantDebugLog: false
+[ 705.442877] Frontend <Info> citra_qt/game_list.cpp:RefreshGameDirectory:1049: Change detected in the applications directory. Reloading game list.
+[ 892.290216] Audio.Sink <Info> audio_core/cubeb_sink.cpp:StateCallback:138: Cubeb Audio Stream Stopped
+[ 892.320579] Audio.Sink <Info> audio_core/cubeb_sink.cpp:StateCallback:135: Cubeb Audio Stream Started
+[ 892.320602] Config <Info> common/settings.cpp:LogSettings:85: Azahar Configuration:
+[ 892.320604] Config <Info> common/settings.cpp:operator():82: Core_UseCpuJit: true
+[ 892.320605] Config <Info> common/settings.cpp:operator():82: Core_CPUClockPercentage: 100
+[ 892.320606] Config <Info> common/settings.cpp:operator():82: Controller_UseArticController: false
+[ 892.320607] Config <Info> common/settings.cpp:operator():82: Renderer_UseGLES: false
+[ 892.320608] Config <Info> common/settings.cpp:operator():82: Renderer_GraphicsAPI: Vulkan
+[ 892.320609] Config <Info> common/settings.cpp:operator():82: Renderer_AsyncShaders: true
+[ 892.320610] Config <Info> common/settings.cpp:operator():82: Renderer_AsyncPresentation: true
+[ 892.320611] Config <Info> common/settings.cpp:operator():82: Renderer_SpirvShaderGen: true
+[ 892.320616] Config <Info> common/settings.cpp:operator():82: Renderer_DisableSpirvOptimizer: true
+[ 892.320616] Config <Info> common/settings.cpp:operator():82: Renderer_Debug: false
+[ 892.320617] Config <Info> common/settings.cpp:operator():82: Renderer_UseHwShader: true
+[ 892.320617] Config <Info> common/settings.cpp:operator():82: Renderer_ShadersAccurateMul: true
+[ 892.320618] Config <Info> common/settings.cpp:operator():82: Renderer_UseShaderJit: true
+[ 892.320618] Config <Info> common/settings.cpp:operator():82: Renderer_UseResolutionFactor: 0
+[ 892.320620] Config <Info> common/settings.cpp:operator():82: Renderer_FrameLimit: 100
+[ 892.320621] Config <Info> common/settings.cpp:operator():82: Renderer_VSyncNew: true
+[ 892.320622] Config <Info> common/settings.cpp:operator():82: Renderer_PostProcessingShader: None (builtin)
+[ 892.320624] Config <Info> common/settings.cpp:operator():82: Renderer_FilterMode: false
+[ 892.320625] Config <Info> common/settings.cpp:operator():82: Renderer_TextureFilter: None
+[ 892.320627] Config <Info> common/settings.cpp:operator():82: Renderer_TextureSampling: GameControlled
+[ 892.320628] Config <Info> common/settings.cpp:operator():82: Renderer_DelayGameRenderThreasUs: 0
+[ 892.320628] Config <Info> common/settings.cpp:operator():82: Renderer_DisableRightEyeRender: false
+[ 892.320629] Config <Info> common/settings.cpp:operator():82: Stereoscopy_Render3d: 0
+[ 892.320630] Config <Info> common/settings.cpp:operator():82: Stereoscopy_Factor3d: 0
+[ 892.320633] Config <Info> common/settings.cpp:operator():82: Stereoscopy_MonoRenderOption: 0
+[ 892.320635] Config <Info> common/settings.cpp:operator():82: Layout_LayoutOption: 6
+[ 892.320636] Config <Info> common/settings.cpp:operator():82: Layout_PortraitLayoutOption: 0
+[ 892.320639] Config <Info> common/settings.cpp:operator():82: Layout_SecondaryDisplayLayout: 0
+[ 892.320640] Config <Info> common/settings.cpp:operator():82: Layout_SwapScreen: false
+[ 892.320641] Config <Info> common/settings.cpp:operator():82: Layout_UprightScreen: false
+[ 892.320641] Config <Info> common/settings.cpp:operator():82: Layout_ScreenGap: 0
+[ 892.320642] Config <Info> common/settings.cpp:operator():82: Layout_LargeScreenProportion: 4
+[ 892.320645] Config <Info> common/settings.cpp:operator():82: Layout_SmallScreenPosition: 2
+[ 892.320646] Config <Info> common/settings.cpp:operator():82: Utility_DumpTextures: false
+[ 892.320646] Config <Info> common/settings.cpp:operator():82: Utility_CustomTextures: false
+[ 892.320647] Config <Info> common/settings.cpp:operator():82: Utility_PreloadTextures: false
+[ 892.320647] Config <Info> common/settings.cpp:operator():82: Utility_AsyncCustomLoading: true
+[ 892.320647] Config <Info> common/settings.cpp:operator():82: Utility_UseDiskShaderCache: true
+[ 892.320648] Config <Info> common/settings.cpp:operator():82: Audio_Emulation: HLE
+[ 892.320649] Config <Info> common/settings.cpp:operator():82: Audio_OutputType: 0
+[ 892.320649] Config <Info> common/settings.cpp:operator():82: Audio_OutputDevice: auto
+[ 892.320649] Config <Info> common/settings.cpp:operator():82: Audio_InputType: 0
+[ 892.320649] Config <Info> common/settings.cpp:operator():82: Audio_InputDevice: auto
+[ 892.320650] Config <Info> common/settings.cpp:operator():82: Audio_EnableAudioStretching: false
+[ 892.320651] Config <Info> common/settings.cpp:operator():82: Audio_EnableRealtime: false
+[ 892.320652] Config <Info> common/settings.cpp:operator():82: Camera_OuterRightName: blank
+[ 892.320652] Config <Info> common/settings.cpp:operator():82: Camera_OuterRightConfig: 
+[ 892.320652] Config <Info> common/settings.cpp:operator():82: Camera_OuterRightFlip: 0
+[ 892.320652] Config <Info> common/settings.cpp:operator():82: Camera_InnerName: blank
+[ 892.320653] Config <Info> common/settings.cpp:operator():82: Camera_InnerConfig: 
+[ 892.320654] Config <Info> common/settings.cpp:operator():82: Camera_InnerFlip: 0
+[ 892.320655] Config <Info> common/settings.cpp:operator():82: Camera_OuterLeftName: blank
+[ 892.320655] Config <Info> common/settings.cpp:operator():82: Camera_OuterLeftConfig: 
+[ 892.320655] Config <Info> common/settings.cpp:operator():82: Camera_OuterLeftFlip: 0
+[ 892.320655] Config <Info> common/settings.cpp:operator():82: DataStorage_UseVirtualSd: true
+[ 892.320656] Config <Info> common/settings.cpp:operator():82: DataStorage_UseCustomStorage: false
+[ 892.320657] Config <Info> common/settings.cpp:operator():82: System_IsNew3ds: true
+[ 892.320658] Config <Info> common/settings.cpp:operator():82: System_LLEApplets: true
+[ 892.320658] Config <Info> common/settings.cpp:operator():82: System_RegionValue: -1
+[ 892.320658] Config <Info> common/settings.cpp:operator():82: System_PluginLoader: true
+[ 892.320658] Config <Info> common/settings.cpp:operator():82: System_PluginLoaderAllowed: true
+[ 892.320659] Config <Info> common/settings.cpp:operator():82: Debugging_DelayStartForLLEModules: true
+[ 892.320659] Config <Info> common/settings.cpp:operator():82: Debugging_UseGdbstub: false
+[ 892.320659] Config <Info> common/settings.cpp:operator():82: Debugging_GdbstubPort: 24689
+[ 892.320660] Config <Info> common/settings.cpp:operator():82: Debugging_InstantDebugLog: false
+[ 892.321549] Frontend <Info> citra_qt/game_list.cpp:RefreshGameDirectory:1049: Change detected in the applications directory. Reloading game list.
+[ 948.433534] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[ 948.447886] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[ 948.447971] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[ 948.500477] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[ 948.514724] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[ 948.514807] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[ 948.567274] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[ 948.581696] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[ 948.598269] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[ 948.634076] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[ 948.648488] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[ 948.665103] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[ 948.700895] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[ 948.715354] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[ 948.715437] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[ 948.768204] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[ 948.782214] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[ 948.782303] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[ 948.834448] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[ 948.849061] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[ 948.849145] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[ 948.901417] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[ 948.915964] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[ 948.916053] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[ 948.968370] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[ 948.982779] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[ 948.982836] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[ 949.035529] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[ 949.049651] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[ 949.049738] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[ 949.102017] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[ 949.116487] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[ 949.116581] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[ 949.169985] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[ 949.200045] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[ 949.200206] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[ 951.542486] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[ 951.556927] Service.CECD <Warning> core/hle/service/cecd/cecd.cpp:GetCecdState:705: (STUBBED) called
+[ 951.556938] Service.NDM <Warning> core/hle/service/ndm/ndm_u.cpp:SuspendDaemons:74: (STUBBED) bit_mask=0x00000001
+[ 951.573622] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:67: Path not found /home/keit/.local/share/azahar-emu/nand/data/00000000000000000000000000000000/sysdata/00010026/00000000/CEC/0018f000/MBoxInfo____
+[ 951.573638] Service.NDM <Warning> core/hle/service/ndm/ndm_u.cpp:ResumeDaemons:89: (STUBBED) bit_mask=0x00000001
+[ 951.573808] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[ 951.574087] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[ 951.610099] Service.CECD <Warning> core/hle/service/cecd/cecd.cpp:GetCecdState:705: (STUBBED) called
+[ 951.610174] Service.APT <Warning> core/hle/service/apt/apt.cpp:ReplySleepQuery:948: (STUBBED) called, from_app_id=00000300, reply_value=00000000
+[ 951.610183] Service.NDM <Warning> core/hle/service/ndm/ndm_u.cpp:SuspendDaemons:74: (STUBBED) bit_mask=0x00000001
+[ 951.623752] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:67: Path not found /home/keit/.local/share/azahar-emu/nand/data/00000000000000000000000000000000/sysdata/00010026/00000000/CEC/0018f000/MBoxInfo____
+[ 951.623765] Service.NDM <Warning> core/hle/service/ndm/ndm_u.cpp:ResumeDaemons:89: (STUBBED) bit_mask=0x00000001
+[ 951.657880] Service.FS <Warning> ./core/file_sys/archive_backend.h:Control:201: (STUBBED) called, archive=SaveDataArchive: /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/, action=00000000, input_size=00000001, output_size=00000001
+[ 958.128102] Service.APT <Warning> core/hle/service/apt/apt.cpp:AppletUtility:698: (STUBBED) called command=0X00000004, input_size=0X00000001, output_size=0X00000001
+[ 958.161427] Service.APT <Warning> core/hle/service/apt/apt.cpp:AppletUtility:698: (STUBBED) called command=0X00000004, input_size=0X00000001, output_size=0X00000001
+[2722.091363] Service.CAM <Info> citra_qt/camera/qt_multimedia_camera.cpp:PauseCameras:40: Pausing all cameras
+[2722.134590] Frontend <Info> common/linux/gamemode.cpp:StopGamemode:27: Stopped gamemode
+[4781.755818] Service.CAM <Info> citra_qt/camera/qt_multimedia_camera.cpp:ResumeCameras:50: Resuming all cameras
+[4781.796658] Frontend <Info> common/linux/gamemode.cpp:StartGamemode:17: Started gamemode
+[7068.089282] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[7068.103105] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[7068.119726] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[7068.156083] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[7068.169929] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[7068.186588] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[7068.223275] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[7068.236768] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[7068.253433] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[7068.290219] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[7068.303645] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[7068.320316] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[7068.356709] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[7068.370531] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[7068.387179] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[7068.423701] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[7068.437427] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[7068.454004] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[7068.490644] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[7068.504256] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[7068.520925] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[7068.557149] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[7068.571139] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[7068.587804] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[7068.624275] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[7068.637966] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[7068.654602] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[7068.691703] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[7068.721502] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[7068.721636] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[7071.064727] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save000.bin can't be open without mode create.
+[7071.078366] Service.CECD <Warning> core/hle/service/cecd/cecd.cpp:GetCecdState:705: (STUBBED) called
+[7071.078378] Service.NDM <Warning> core/hle/service/ndm/ndm_u.cpp:SuspendDaemons:74: (STUBBED) bit_mask=0x00000001
+[7071.095240] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:67: Path not found /home/keit/.local/share/azahar-emu/nand/data/00000000000000000000000000000000/sysdata/00010026/00000000/CEC/0018f000/MBoxInfo____
+[7071.095262] Service.NDM <Warning> core/hle/service/ndm/ndm_u.cpp:ResumeDaemons:89: (STUBBED) bit_mask=0x00000001
+[7071.095307] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save002.bin can't be open without mode create.
+[7071.095520] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:76: Non-existing file /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/save003.bin can't be open without mode create.
+[7071.131741] Service.CECD <Warning> core/hle/service/cecd/cecd.cpp:GetCecdState:705: (STUBBED) called
+[7071.131750] Service.APT <Warning> core/hle/service/apt/apt.cpp:ReplySleepQuery:948: (STUBBED) called, from_app_id=00000300, reply_value=00000000
+[7071.131755] Service.NDM <Warning> core/hle/service/ndm/ndm_u.cpp:SuspendDaemons:74: (STUBBED) bit_mask=0x00000001
+[7071.145196] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:67: Path not found /home/keit/.local/share/azahar-emu/nand/data/00000000000000000000000000000000/sysdata/00010026/00000000/CEC/0018f000/MBoxInfo____
+[7071.145209] Service.NDM <Warning> core/hle/service/ndm/ndm_u.cpp:ResumeDaemons:89: (STUBBED) bit_mask=0x00000001
+[7071.178629] Service.FS <Warning> ./core/file_sys/archive_backend.h:Control:201: (STUBBED) called, archive=SaveDataArchive: /home/keit/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0018f000/data/00000001/, action=00000000, input_size=00000001, output_size=00000001
+[7077.884401] Service.APT <Warning> core/hle/service/apt/apt.cpp:AppletUtility:698: (STUBBED) called command=0X00000004, input_size=0X00000001, output_size=0X00000001
+[7077.917796] Service.APT <Warning> core/hle/service/apt/apt.cpp:AppletUtility:698: (STUBBED) called command=0X00000004, input_size=0X00000001, output_size=0X00000001
+[7103.646210] Audio.Sink <Info> audio_core/cubeb_sink.cpp:StateCallback:138: Cubeb Audio Stream Stopped
+[7103.656262] Kernel <Info> core/hle/kernel/process.cpp:~Process:634: Cleaning up process 11
+[7103.743928] Frontend <Info> common/linux/gamemode.cpp:StopGamemode:27: Stopped gamemode
+[7103.743928] Frontend <Info> common/linux/gamemode.cpp:StopGamemode:27: Stopped gamemode
